@@ -2,33 +2,33 @@
  * Initialize calculator behavior
  */
 function initializeCalculator() {
-    // Intentionally empty
+    document.getElementById("calculate").addEventListener("click", calculate);
 }
 
 /**
- * Handle calculation request
+ * Handle calculation
  */
 function calculate() {
-    // Intentionally empty
+    const a = Number(document.getElementById("number1").value);
+    const b = Number(document.getElementById("number2").value);
+    const operation = document.getElementById("operation").value;
+
+    if (operation === "multiply") {
+        document.getElementById("result").textContent = multiply(a, b);
+    }
 }
 
-/**
- * Add two numbers
- */
 function add() {
-    // Intentionally empty
+    // Not implemented in this branch
 }
 
-/**
- * Subtract two numbers
- */
 function subtract() {
-    // Intentionally empty
+    // Not implemented in this branch
 }
 
 /**
- * Multiply two numbers
+ * Multiplication operation
  */
-function multiply() {
-    // Intentionally empty
+function multiply(a, b) {
+    return a * b;
 }
