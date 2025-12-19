@@ -1,0 +1,34 @@
+/* Global page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Calculator container */
+.calculator {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inputs, select and button styling */
+.calculator input,
+.calculator select,
+.calculator button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Result display */
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
