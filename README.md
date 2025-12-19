@@ -15,3 +15,13 @@ Project initialized with:
 - Created feature/substraction branch
 - Implemented subtraction logic
 - Feature developed independently from addition
+
+## Feature: Multiplication
+- Created feature/multiplication branch
+- Implemented multiplication logic
+- All calculator operations are now available on develop
+
+## Merge summary
+- Addition merged into develop
+- Substraction merged with manual conflict resolution
+- Multiplication merged without conflict

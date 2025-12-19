@@ -20,6 +20,10 @@ function calculate() {
     if (operation === "subtract") {
         document.getElementById("result").textContent = subtract(a, b);
     }
+
+    if (operation === "multiply") {
+        document.getElementById("result").textContent = multiply(a, b);
+    }
 }
 
 /**
@@ -30,12 +34,15 @@ function add(a, b) {
 }
 
 /**
- * Substraction operation
+ * Subtraction operation
  */
 function subtract(a, b) {
     return a - b;
 }
 
-function multiply() {
-    // Not implemented yet
+/**
+ * Multiplication operation
+ */
+function multiply(a, b) {
+    return a * b;
 }
