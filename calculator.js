@@ -16,6 +16,10 @@ function calculate() {
     if (operation === "add") {
         document.getElementById("result").textContent = add(a, b);
     }
+
+    if (operation === "subtract") {
+        document.getElementById("result").textContent = subtract(a, b);
+    }
 }
 
 /**
@@ -25,10 +29,13 @@ function add(a, b) {
     return a + b;
 }
 
-function subtract() {
-    // Not implemented in this branch
+/**
+ * Substraction operation
+ */
+function subtract(a, b) {
+    return a - b;
 }
 
 function multiply() {
-    // Not implemented in this branch
+    // Not implemented yet
 }

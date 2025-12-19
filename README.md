@@ -10,3 +10,8 @@ Project initialized with:
 - Created feature/addition branch
 - Implemented addition logic in calculator.js
 - Addition works through the calculate button
+
+## Feature: Substraction
+- Created feature/substraction branch
+- Implemented subtraction logic
+- Feature developed independently from addition
